@@ -1,0 +1,324 @@
+* {
+    position: relative;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+
+
+}
+
+header {
+    position: relative;
+    padding-left: 15rem;
+    height: 100vh;
+    width: 100%;
+}
+
+.background {
+    background: rgba(0, 0, 0, 0.7) url(/img/raphael-nogueira-svbDI1Pq30s-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken;
+}
+
+nav {
+    background-color: #00000082;
+    height: 100%;
+    width: 10rem;
+    position: fixed;
+    z-index: 1;
+}
+
+.profile-pic {
+    width: 100%;
+    height: 10rem;
+    padding: 1.5rem;
+}
+
+.profile-pic img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top a {
+    max-width: 5rem;
+    flex: 1 1 20rem;
+    color: #ffffffa8;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2.5rem;
+    padding: 0rem 1rem;
+    border-radius: 1rem;
+    background: #ffffff0d;
+
+}
+
+.top a:hover {
+    color: #ff0000b3;
+    box-shadow: 0 0 5px white;
+    text-shadow: 0 0 2px #ff0000b3;
+}
+
+section {
+    padding-left: 11rem;
+    flex: 1 1 40rem;
+}
+
+.top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+}
+
+.top-content {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0rem;
+    gap: 3rem;
+}
+
+.main-display {
+    position: relative;
+    background:transparent;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.name {
+    width: 100%;
+    color: white;
+    text-align: center;
+    line-height: 4rem;
+    
+}
+.name h1 {
+    font-size: 4rem;
+    text-shadow: 0 0 2px white;
+    letter-spacing: 3px;
+    padding: 1rem;
+    
+}
+.name h2 {
+    font-size: 2rem;
+
+}
+.social-media{
+    margin: 4rem 0rem;
+    margin-top: 7rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    height: 50%;
+}
+.social-media a {
+    text-decoration: none;
+    flex: 1 1 7rem;
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social-media a i{
+    padding: 1rem;
+    border-radius: 50%;
+}
+.social-media a i:hover{
+    color: #ff0000b3;
+    text-shadow: 1px 1px 40px white;
+}
+.about{
+    height: 100vh;
+    gap: 2rem;
+    padding: 1rem 2rem;
+    padding-left: 11rem;
+    margin: 2rem 0rem;
+}
+.about-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.about-left{
+    flex: 1 1 20rem;
+    height: 85vh;
+    padding: 2rem 6rem;
+}
+.about-left img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    box-shadow: 0 0 35px 1px white;
+}
+.about-right{
+    flex: 1 1 20rem;
+    height: 85vh;
+}
+.about h1 {
+    width: 80vw;
+    text-align: center;
+    font-size: 2.5rem;
+    color: white;
+    letter-spacing: 2px;
+}
+.about-right p {
+    padding: 1rem 0rem;
+    font-size: 2rem;
+    line-height: 3.5rem;
+    letter-spacing: 1px;
+    color: wheat;
+
+}
+.projects{
+    height: 100%;
+    padding: 1rem 3rem;
+    padding-left: 11rem;
+    margin: 3rem 0rem;
+}
+.project-container{
+    height: 100%;
+    background-color: #ffffff66;
+    color: white;
+    border-radius: 1rem;
+    overflow: hidden;
+    padding: 2rem 5rem
+
+
+}
+.cards{
+    display: flex;
+    gap: 1rem;
+}
+.cards img {
+    height: 20rem;
+    flex: 1 1 20rem;
+
+}
+.project-container h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 1rem 0rem;
+    letter-spacing: 2px;
+}
+.project-description{
+    flex: 1 1 20rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+}
+.cards{
+    padding: 2rem;
+    background-color: white;
+    color: black;
+    border-radius: 1rem;
+}
+.project-description h2 {
+    font-size: 2rem;
+    text-align: center;
+
+}
+.languages{
+    margin: 2rem 0rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    width: 100%;
+}
+.languages span {
+    width: 8rem;
+    text-align: center;
+   background-color: #bdbdbd;
+   padding: 0.5rem 2rem;
+   border-radius: 1rem;
+   color: #616161;
+
+}
+.project-description button{
+    padding: 0.5rem 2rem;
+    border-radius: 1rem;
+    font-size: 1rem;
+    box-shadow: 2px 2px 2px black;
+}
+.project-container{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+.contact-content{
+    padding: 2rem;
+    margin: 2rem 0rem;
+    display: flex;
+    gap: 2rem;
+    
+}
+.contact h1 {
+    font-size: 2.5rem;
+    color: white;
+    text-align: center;
+}
+.contact-left{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 20rem;
+    height: 80%;
+    color: white;
+
+}
+.contact-left h2{
+    font-size: 2rem;
+    letter-spacing: 2px;
+}
+.contact-right{
+    flex: 1 1 20rem;
+    height: 80%;
+}
+.contact-left img {
+    height: 50%;
+    width: 50%;
+    object-fit: cover;
+}
+.myform{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 1rem;
+}
+.myform input{
+    padding: 1rem;
+    border-radius: 1rem;
+}
+.myform .msg{
+    padding: 1rem 1rem;
+    height: 10rem;
+}
+.myform button{
+    width: 20%;
+    padding:1rem 2rem;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
